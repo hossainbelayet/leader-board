@@ -1,0 +1,161 @@
+/*  top players style  */
+body{
+    background-color: antiquewhite;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    
+    width: 900px;
+    padding: 30px; 
+    
+    
+} 
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 12px;
+    margin-bottom: 30px;
+    
+
+}
+h1{
+    text-align: center;
+    padding: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    border-bottom: 3px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+    padding: 18px;
+}
+.player h2{
+    margin-left: 14px;
+}
+.player img{
+    width: 60px;
+    height: 60px;
+   
+}
+/* ------------ */
+/* top blog styles */
+/* ------------- */
+.blogs{
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   margin-bottom: none;
+}
+.blog{
+    display: flex;
+    padding: 16px;
+
+}
+.blog .blog-info{
+    text-align: center;
+    padding: 14px;
+    margin-top: none;
+    margin-bottom: 30px;
+}
+.top-blogs{
+    
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    border-bottom: 2px; 
+   
+}
+
+.blog .thumbnail img{
+    width: 180px;
+    height: 180px;
+    margin-top: 42px;
+
+}
+.by-authore{
+    color: burlywood;
+    font-size: 16px;
+}
+.top-blogs h2{
+    margin-bottom: none;
+    text-align: center;
+}
+.container{
+    background-color: azure;
+   
+    width:880px ;
+    padding:30px;
+    border-radius: 6px;
+    margin-top: 24px;
+}
+/*--courses ctyle/---*/
+.last-part{
+   display: flex;
+   
+   margin-right: 10px;
+}
+.courses{
+    margin: 15px;
+    margin-right: 5px;
+}
+.container{
+   
+    margin-top: 10px;
+}
+.container h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(92, 37, 48);
+
+}
+.course-banner img{
+    width: 280px;
+    height: 180px;
+   
+}
+
+.fa-star{
+    font-size: 14px;
+}
+.fa-star .filled{
+    color: rgb(239, 243, 11);
+}
+.fa-star .empty{
+    color: aliceblue;
+}
+.course-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between 20px;
+  font-size: 20px;
+ 
+}
+.course-info p{
+    border: 7px;
+    padding: 20px;
+}
+.course-duration{
+    background-color: rgb(221, 172, 159);
+    border-radius: 6px;
+    box-shadow: 12px rgb(67, 21, 21);
+}
+
+/*--------------
+  media Devises
+  -------------*/
+  /* mobile phone */
+   @media only screen and(max-width:688px){
+     .players{
+        background-color: red;
+     }
+   }
+ 
